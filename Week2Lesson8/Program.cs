@@ -109,11 +109,14 @@ namespace Week2Lesson8
         }
         public static void exe6()
         {
+            Console.WriteLine();
+            Console.Write("Enter number: ");
+            float y = float.Parse(Console.ReadLine());
             float x = 0;
-            
+
             for (float i = 1; i <= 20; i++)
             {
-                x += 1 / i;
+                x += y / i;
                Console.WriteLine(x);
             }
         }
